@@ -1,4 +1,4 @@
-# Israel Juárez (backend developer junior)
+# Israel Juárez (backend developer)
 
 <h2 align="center">About me</h2>
 
