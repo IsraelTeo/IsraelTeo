@@ -52,7 +52,7 @@ public class Main {
   </a>
 </p>
 
-<h2 align="center">Github stats :bar_chart:</h2>
+<!-- <h2 align="center">Github stats :bar_chart:</h2>
 
 <h4 align="center">Top langs :tongue:</h4>
 
@@ -63,6 +63,7 @@ public class Main {
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=IsraelTeo&show_icons=true&theme=synthwave" alt="AnhellO :: Profile Stats" /></p>
 
 <p align="center"><img src="https://thumbs.gfycat.com/GoodnaturedFondGaur-size_restricted.gif" alt="Synthwave" height="300" width="500"></p>
+-->
 
 ----
 Credit: [AnhellO](https://github.com/AnhellO)
