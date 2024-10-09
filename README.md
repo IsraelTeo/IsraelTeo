@@ -2,30 +2,28 @@
 
 <h2 align="center">About me</h2>
 
-```java
-import java.util.HashMap;
-import java.util.Map;
+package main
 
-public class Main {
+import (
+	"fmt"
+)
 
-    public static void main(String[] args) {
-        for (Map.Entry<String, String> entry : getBio().entrySet()) {
-            System.out.println(entry.getKey() + ": " + entry.getValue());
-        }
-    }
-
-    public static Map<String, String> getBio() {
-        Map<String, String> bio = new HashMap<>();
-        bio.put("Bio:", "Hello! I am Israel, a passionate Software Engineering university student with a self-taught interest and experience in developing server-side (backend) projects using Java/Springboot-oriented technologies.");
-        bio.put("- 🔭 I am currently working on: ", "I am a freelance developer until I have the opportunity to contribute my knowledge and skills to a company");
-        bio.put("- 🌱 I am currently learning: ", "Security with SpringSecurity and Microservices");
-        bio.put("- 👯 I am looking to collaborate on projects related to: ", "Java, Spring and backend");
-        bio.put("- 💬 Ask me about: ", "Java and SpringBoot!");
-        bio.put("- 📫 How to reach me: ", "Linkedin: Israel Juárez Guillermo");
-        return bio;
-    }
+func main() {
+	for key, value := range getBio() {
+		fmt.Println(key + value)
+	}
 }
-```
+
+func getBio() map[string]string {
+	bio := make(map[string]string)
+	bio["Bio:"] = "Hello! I am Israel, a passionate Software Engineering university student with a self-taught 
+       interest and experience in developing server-side (backend) projects using Go and Java/Springboot-oriented technologies."
+	bio["- 🔭 I am currently working on: "] = "I am a freelance developer until I have the opportunity 
+        to contribute my knowledge and skills to a company"
+	bio["- 💬 Ask me about: "] = "Go and SpringBoot!"
+	bio["- 📫 How to reach me: "] = "Linkedin: Israel Juárez Guillermo"
+	return bio
+}
 
 <h2 align="center">You can reach me at :alien:</h2>
 
