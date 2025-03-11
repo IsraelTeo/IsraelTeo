@@ -2,9 +2,7 @@
 
 <h2 align="center">About me</h2>
 
-
 package main
-
 
 import (
 
@@ -26,9 +24,9 @@ func main() {
 func getBio() map[string]string {
 
 	bio := map[string]string{
-		"Bio: ": "Hello! I am Israel, a passionate Software Engineering university student with a self-taught interest and experience in developing server-side (backend) projects using Go and Java/Springboot-oriented technologies.",
+		"Bio: ": "Hello! I am a Software Backend developer with experience in projects using Go.",
 		"- 🔭 I am currently working on: ": "I am a freelance developer until I have the opportunity to contribute my knowledge and skills to a company.",
-		"- 💬 Ask me about: ":       "Go and SpringBoot!",
+		"- 💬 Ask me about: ":       "¡Gopher developer!,
 		"- 📫 How to reach me: ":    "LinkedIn: Israel Juárez Guillermo",
 	}
  
