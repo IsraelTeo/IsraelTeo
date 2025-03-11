@@ -35,7 +35,7 @@ func getBio() map[string]string {
 <p align="center">
 
   <a href="www.linkedin.com/in/israel-juárez-guillermo-b04aa2283">
-    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Angel Santiago Jaime Zavala's LinkedIn Profile" height="30" width="30">
+    <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Israel Juárez´s LinkedIn Profile" height="30" width="30">
   </a>
 
 </p>
@@ -43,7 +43,7 @@ func getBio() map[string]string {
 <h2 align="center">My stack :man_technologist:</h2>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=golang,spring,postman,postgres,mysql,idea)](https://skillicons.dev" />
+    <img src="https://skillicons.dev/icons?i=golang,spring,git,postman,postgres,docker,mongodb,)](https://skillicons.dev" />
   </a>
 </p>
 
