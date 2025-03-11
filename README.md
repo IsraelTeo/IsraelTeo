@@ -10,7 +10,9 @@ import (
 
 func main() {
 	for key, value := range getBio() {
+ 
 		fmt.Println(key + value)
+  
 	}
 }
 
