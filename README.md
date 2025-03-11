@@ -23,7 +23,6 @@ func getBio() map[string]string {
 
 	bio := map[string]string{
 		"Bio: ": "Hello! I am a Software Backend developer with experience in projects using Go.",
-		"- 🔭 I am currently working on: ": "I am a freelance developer until I have the opportunity to contribute my knowledge and skills to a company.",
 		"- 💬 Ask me about: ":       "¡Gopher developer!,
 		"- 📫 How to reach me: ":    "LinkedIn: Israel Juárez Guillermo",
 	}
