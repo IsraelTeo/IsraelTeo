@@ -43,7 +43,7 @@ func getBio() map[string]string {
 <h2 align="center">My stack :man_technologist:</h2>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=spring,golang,git,postman,postgres,docker,mongodb,)](https://skillicons.dev" />
+    <img src="https://skillicons.dev/icons?i=golang,git,postman,postgres,docker,mongodb,)](https://skillicons.dev" />
   </a>
 </p>
 
