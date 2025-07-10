@@ -13,8 +13,8 @@ public class Main {
 
     public static java.util.Map<String, String> getBio() {
         java.util.Map<String, String> bio = new java.util.LinkedHashMap<>();
-        bio.put("Bio: ", "Hello! I am a backend software engineer with experience in projects using Go.");
-        bio.put("- 💬 Ask me about: ", "¡Gopher developer!");
+        bio.put("Bio: ", "Hello! I am a backend software engineer with experience in projects using Spring.");
+        bio.put("- 💬 Ask me about: ", "¡Backenddeveloper!");
         bio.put("- 📫 How to reach me: ", "LinkedIn: Israel Juárez Guillermo");
 
         return bio;
