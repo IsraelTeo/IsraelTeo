@@ -1,33 +1,24 @@
-# Israel Juárez (backend developer)
+// Israel Juárez (backend developer)
 
-<h2 align="center">About me</h2>
+public class Main {
 
-package main
+    public static void main(String[] args) {
+        System.out.println("        About me        ");
+        System.out.println("========================");
 
-import (
+        for (var entry : getBio().entrySet()) {
+            System.out.println(entry.getKey() + entry.getValue());
+        }
+    }
 
-	"fmt"
- 
-)
+    public static java.util.Map<String, String> getBio() {
+        java.util.Map<String, String> bio = new java.util.LinkedHashMap<>();
+        bio.put("Bio: ", "Hello! I am a backend software engineer with experience in projects using Go.");
+        bio.put("- 💬 Ask me about: ", "¡Gopher developer!");
+        bio.put("- 📫 How to reach me: ", "LinkedIn: Israel Juárez Guillermo");
 
-
-func main() {
-
-	for key, value := range getBio() {
-		fmt.Println(key + value)
-	}
-}
-
-
-func getBio() map[string]string {
-
-	bio := map[string]string{
-		"Bio: ": "Hello! I am a backend software engineer with experience in projects using Go.",
-		"- 💬 Ask me about: ":       "¡Gopher developer!,
-		"- 📫 How to reach me: ":    "LinkedIn: Israel Juárez Guillermo",
-	}
- 
-	return bio
+        return bio;
+    }
 }
 
 <h2 align="center">You can reach me at :alien:</h2>
