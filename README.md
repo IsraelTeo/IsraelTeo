@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("        About me        ")
 	fmt.Println("========================")
 
-        for key, value := range getBio() {
+	for key, value := range getBio() {
 		fmt.Println(key + value)
 	}
 }
@@ -18,7 +18,7 @@ func main() {
 func getBio() map[string]string {
 	bio := map[string]string{
 		"Bio: ":                   "Hello! I am a backend software engineer with experience in projects using Spring.",
-		"- 💬 Ask me about: ":     "¡Backenddeveloper!",
+		"- 💬 Ask me about: ":     "Backenddeveloper!",
 		"- 📫 How to reach me: ": "LinkedIn: Israel Juárez Guillermo",
 	}
 	return bio
