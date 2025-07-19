@@ -1,29 +1,5 @@
 // Israel Juárez (backend developer)
 
-package main
-
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println("        About me        ")
-	fmt.Println("========================")
-
-	for key, value := range getBio() {
-		fmt.Println(key + value)
-	}
-}
-
-func getBio() map[string]string {
-	bio := map[string]string{
-		"Bio: ":                   "Hello! I am a backend software engineer with experience in projects using Spring.",
-		"- 💬 Ask me about: ":     "Backenddeveloper!",
-		"- 📫 How to reach me: ": "LinkedIn: Israel Juárez Guillermo",
-	}
-	return bio
-}
-
 <h2 align="center">You can reach me at :alien:</h2>
 
 <p align="center">
