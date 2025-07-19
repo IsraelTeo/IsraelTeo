@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("        About me        ")
 	fmt.Println("========================")
 
-	for key, value := range getBio() {
+        for key, value := range getBio() {
 		fmt.Println(key + value)
 	}
 }
